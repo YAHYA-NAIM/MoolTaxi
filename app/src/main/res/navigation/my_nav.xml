@@ -1,0 +1,120 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splachScreen">
+
+    <!-- Language Select Fragment -->
+    <fragment
+        android:id="@+id/languageSelectFragment"
+        android:name="com.example.mooltaxi.LanguageSelect"
+        android:label="fragment_language_select"
+        tools:layout="@layout/fragment_language_select">
+        <action
+            android:id="@+id/action_languageSelectFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/languageSelectFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Splash Screen -->
+    <fragment
+        android:id="@+id/splachScreen"
+        android:name="com.example.mooltaxi.SplachScreen"
+        android:label="fragment_splach_screen"
+        tools:layout="@layout/fragment_splach_screen">
+        <action
+            android:id="@+id/action_splachScreen_to_languageSelect"
+            app:destination="@id/languageSelectFragment"
+            app:popUpTo="@id/splachScreen" />
+        <action
+            android:id="@+id/action_splachScreen_to_signupScreen"
+            app:destination="@id/signupScreen"
+            app:popUpTo="@id/splachScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splachScreen_to_homeScreen"
+            app:destination="@id/homeScreen"
+            app:popUpTo="@id/splachScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- ViewPager Fragment (Onboarding) -->
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.mooltaxi.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager">
+        <action
+            android:id="@+id/action_viewPagerFragment_to_signupScreen"
+            app:destination="@id/signupScreen"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Sign-up Screen -->
+    <fragment
+        android:id="@+id/signupScreen"
+        android:name="com.example.mooltaxi.SignupScreen"
+        android:label="fragment_signup_page"
+        tools:layout="@layout/fragment_signup_page">
+        <action
+            android:id="@+id/action_signupScreen_to_loginScreen"
+            app:destination="@id/loginScreen"
+            app:popUpTo="@id/signupScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signupScreen_to_homeScreen"
+            app:destination="@id/homeScreen"
+            app:popUpTo="@id/signupScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Login Screen -->
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.example.mooltaxi.LoginScreen"
+        android:label="LoginScreen"
+        tools:layout="@layout/fragment_loginpage">
+        <action
+            android:id="@+id/action_loginScreen_to_signupScreen"
+            app:destination="@id/signupScreen"
+            app:popUpTo="@id/loginScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginScreen_to_homeScreen"
+            app:destination="@id/homeScreen"
+            app:popUpTo="@id/loginScreen"
+            app:popUpToInclusive="true" />
+        <!-- Added action for navigating to Forget Password Screen -->
+        <action
+            android:id="@+id/action_loginScreen_to_forgetpassword"
+            app:destination="@id/forgetpassword" />
+    </fragment>
+
+    <!-- Home Screen -->
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.example.mooltaxi.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Forget Password Screen -->
+    <fragment
+        android:id="@+id/forgetpassword"
+        android:name="com.example.mooltaxi.ForgetPassword"
+        android:label="fragment_forgetpassword"
+        tools:layout="@layout/fragment_forgetpassword">
+        <action
+            android:id="@+id/action_forgetpassword_to_loginScreen"
+            app:destination="@id/loginScreen"
+            app:popUpTo="@id/forgetpassword"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <action
+        android:id="@+id/action_homeScreen_to_loginScreen"
+        app:destination="@id/loginScreen"
+        app:popUpTo="@id/homeScreen"
+        app:popUpToInclusive="true" />
+
+</navigation>

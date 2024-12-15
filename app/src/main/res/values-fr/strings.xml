@@ -1,0 +1,58 @@
+<resources>
+    <string name="mooltaxi">MoolTaxi</string>
+    <!-- Onboarding Titles -->
+    <string name="onboarding_title_1">Suivez vos trajets avec <font color="#FFD700">facilité</font></string>
+    <string name="onboarding_title_2">Des trajets transparents et équitables <font color="#FFD700">complètement</font></string>
+    <string name="onboarding_title_3">Prêt à <font color="#FFD700">partir ?</font></string>
+
+    <!-- Onboarding Descriptions -->
+    <string name="onboarding_desc_1">Pour profiter pleinement de votre aventure, il vous suffit de partir et d’aller où vous voulez. Nous vous attendons pour commencer votre voyage !</string>
+    <string name="onboarding_desc_2">Connaissez votre tarif avant de commencer. Suivez la distance, le temps et le tarif en temps réel pour un trajet sans soucis.</string>
+    <string name="onboarding_desc_3">Peu importe où vous voulez aller, nous sommes là pour vous aider. Commencez votre aventure aujourd hui avec facilité et confiance.</string>
+
+    <!-- Buttons -->
+    <string name="next_button">Suivant</string>
+    <string name="start_now_button">Commencer maintenant</string>
+    <!-- Signup page Login page-->
+    <string name="signup_now">Inscrivez-vous</string>
+    <string name="fill_details">Veuillez remplir les détails et créer un compte</string>
+    <string name="email_hint">Email</string>
+    <string name="name_hint">Nom</string>
+    <string name="age_hint">Âge</string>
+    <string name="license_type_hint">Type de permis</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="password_requirement">Le mot de passe doit comporter au moins 8 caractères</string>
+    <string name="signup">S inscrire</string>
+    <string name="already_have_account">Vous avez déjà un compte ?</string>
+    <string name="signin">Se connecter</string>
+    <string name="sign_in_title">Connectez-vous maintenant</string>
+    <string name="sign_in_subtitle">Veuillez vous connecter pour continuer à utiliser notre application</string>
+    <string name="forget_password">Mot de passe oublié ?</string>
+    <string name="error_message">Email ou mot de passe invalide</string>
+    <string name="reset_password_button">Réinitialiser le mot de passe</string>
+    <string name="forgot_password_title">Mot de passe oublié</string>
+    <string name="forgot_password_description">Entrez votre email pour réinitialiser votre mot de passe</string>
+    <!-- home -->
+    <string name="profile_icon">Profil</string>
+    <string name="map_icon">Carte</string>
+
+    <string name="get_current_location">Obtenir la localisation actuelle</string>
+    <string name="location_permission_denied">Permission de localisation refusée</string>
+    <string name="unable_to_get_location">Impossible d obtenir la localisation</string>
+    <string name="ride_started">Trajet commencé</string>
+    <string name="ride_ended">Trajet terminé</string>
+    <string name="current_location">Emplacement actuel</string>
+    <string name="total_fare">Tarif total : %.2f DH</string>
+    <string name="distance_km">Distance : %.2f km</string>
+    <string name="time">Temps : %02d:%02d</string>
+    <string name="ride_details">Détails du trajet</string>
+    <string name="distance_time_info">Distance : 0.0 km \n \n Temps : 0 min</string>
+    <string name="play">lancer</string>
+    <string name="pause">Pause</string>
+    <string name="profile_title">Profil</string>
+    <string name="full_name">Nom complet :</string>
+    <string name="age">Âge :</string>
+    <string name="licence_type">Type de permis :</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="email_placeholder">Email</string>
+</resources>

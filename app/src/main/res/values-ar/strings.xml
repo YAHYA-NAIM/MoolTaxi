@@ -1,0 +1,58 @@
+<resources>
+    <string name="mooltaxi">مول تاكسي</string>
+    <!-- Onboarding Titles -->
+    <string name="onboarding_title_1">تتبع رحلاتك مع <font color="#FFD700">سهولة</font></string>
+    <string name="onboarding_title_2">رحلات شفافة وعادلة <font color="#FFD700">تماماً</font></string>
+    <string name="onboarding_title_3">هل أنت جاهز لـ <font color="#FFD700">الانطلاق؟</font></string>
+
+    <!-- Onboarding Descriptions -->
+    <string name="onboarding_desc_1">لتجربة مغامرتك بشكل أفضل، كل ما عليك فعله هو الخروج والذهاب إلى المكان الذي تحبه. نحن بانتظارك لبدء رحلتك!</string>
+    <string name="onboarding_desc_2">اعرف تعرفة رحلتك قبل أن تبدأ. تتبع المسافة، الوقت، والتكلفة بشكل لحظي لرحلة خالية من القلق.</string>
+    <string name="onboarding_desc_3">أينما تريد أن تذهب، نحن هنا لمساعدتك. ابدأ مغامرتك اليوم بسهولة وثقة.</string>
+
+    <!-- Buttons -->
+    <string name="next_button">التالي</string>
+    <string name="start_now_button">ابدأ الآن</string>
+    <!-- Signup page Login page-->
+    <string name="signup_now">سجل الآن</string>
+    <string name="fill_details">يرجى تعبئة التفاصيل وإنشاء الحساب</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="name_hint">الاسم</string>
+    <string name="age_hint">العمر</string>
+    <string name="license_type_hint">نوع الرخصة</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="password_requirement">يجب أن تكون كلمة المرور 8 أحرف على الأقل</string>
+    <string name="signup">التسجيل</string>
+    <string name="already_have_account">هل لديك حساب بالفعل؟</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="sign_in_title">سجل الدخول الآن</string>
+    <string name="sign_in_subtitle">يرجى تسجيل الدخول للاستمرار في استخدام التطبيق</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="error_message">البريد الإلكتروني أو كلمة المرور غير صحيحة</string>
+    <string name="reset_password_button">إعادة تعيين كلمة المرور</string>
+    <string name="forgot_password_title">نسيت كلمة المرور</string>
+    <string name="forgot_password_description">أدخل بريدك الإلكتروني لإعادة تعيين كلمة المرور</string>
+    <!-- home -->
+    <string name="profile_icon">الملف الشخصي</string>
+    <string name="map_icon">الخريطة</string>
+
+    <string name="get_current_location">الحصول على الموقع الحالي</string>
+    <string name="location_permission_denied">تم رفض إذن الموقع</string>
+    <string name="unable_to_get_location">تعذر الحصول على الموقع</string>
+    <string name="distance_time_info">المسافة: 0.0 كم \n \n الوقت: 0 دقيقة</string>
+    <string name="ride_started">بدأت الرحلة</string>
+    <string name="ride_ended">انتهت الرحلة</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="total_fare">إجمالي التكلفة: %.2f درهم</string>
+    <string name="distance_km">المسافة: %.2f كم</string>
+    <string name="time">الوقت: %02d:%02d</string>
+    <string name="ride_details">تفاصيل الرحلة</string>
+    <string name="play">تشغيل</string>
+    <string name="pause">إيقاف</string>
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="full_name">:الاسم الكامل</string>
+    <string name="age">:العمر</string>
+    <string name="licence_type">:نوع الرخصة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="email_placeholder">البريد الإلكتروني</string>
+</resources>

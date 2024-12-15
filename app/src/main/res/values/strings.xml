@@ -1,0 +1,60 @@
+<resources>
+    <string name="mooltaxi">MoolTaxi</string>
+    <!-- Onboarding Titles -->
+    <string name="onboarding_title_1">Track Your Rides with <font color="#FFD700">Ease</font></string>
+    <string name="onboarding_title_2">Transparent and Fair <font color="#FFD700">Rides</font></string>
+    <string name="onboarding_title_3">Ready to <font color="#FFD700">Go?</font></string>
+
+    <!-- Onboarding Descriptions -->
+    <string name="onboarding_desc_1">To get the best of your adventure, you just need to leave and go where you like. We’re waiting for you to start your journey!</string>
+    <string name="onboarding_desc_2">Know your fare before the ride starts. Track distance, time, and fare in real-time for a worry-free journey.</string>
+    <string name="onboarding_desc_3">Wherever you want to go, we’ll help you get there. Start your adventure today with ease and confidence.</string>
+
+    <!-- Buttons -->
+    <string name="next_button">Next</string>
+    <string name="start_now_button">Start Now</string>
+    <!-- Signup page Login page-->
+    <string name="signup_now">Sign up now</string>
+    <string name="fill_details">Please fill the details and create account</string>
+    <string name="email_hint">Email</string>
+    <string name="name_hint">Name</string>
+    <string name="age_hint">Age</string>
+    <string name="license_type_hint">License Type</string>
+    <string name="password_hint">Password</string>
+    <string name="password_requirement">Password must be 8 characters</string>
+    <string name="signup">Sign Up</string>
+    <string name="already_have_account">Already have an account</string>
+    <string name="signin">Sign In</string>
+    <string name="sign_in_title">Sign in now</string>
+    <string name="sign_in_subtitle">Please sign in to continue our app</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="error_message">Invalid email or password</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="forgot_password_description">Enter your email account to reset \n your password</string>
+    <!-- home -->
+    <string name="profile_icon">profile</string>
+    <string name="map_icon">map</string>
+
+    <string name="get_current_location">Get Current Location</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="unable_to_get_location">Unable to get location</string>
+    <string name="ride_started">Ride Started</string>
+    <string name="ride_ended">Ride Ended</string>
+    <string name="current_location">Current Location</string>
+    <string name="total_fare">Total Fare: %.2f DH</string>
+    <string name="distance_km">Distance: %.2f km</string>
+    <string name="time">Time: %02d:%02d</string>
+    <string name="ride_details">Ride details</string>
+    <string name="distance_time_info">Distance: 0.0 km \n \n Time: 0 min</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="profile_title">Profile</string>
+    <string name="full_name">Full Name:</string>
+    <string name="age">Age:</string>
+    <string name="licence_type">Licence Type:</string>
+    <string name="logout">Logout</string>
+    <string name="email_placeholder">Email</string>
+
+
+</resources>
