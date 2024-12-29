@@ -40,7 +40,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
     }
 
     // Insert a new user
-    fun insertUser(name: String, email: String, licenseType: String, age: String, createdAt: String) {
+    fun insertUser(name: String, email: String, licenseType: String, age: String, createdAt: String): Long {
         val db = writableDatabase
         val values = ContentValues().apply {
             put(COLUMN_NAME, name)
@@ -50,47 +50,40 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
             put(COLUMN_CREATED_AT, createdAt)
         }
 
-        db.insert(TABLE_NAME, null, values)
-        db.close()
+        // Insert and return the result (row id or -1 if error)
+        return db.insert(TABLE_NAME, null, values).also {
+            db.close()
+        }
     }
 
+    // Get user by email
     fun getUserByEmail(email: String): User? {
+        if (email.isEmpty()) return null
+
         val db = readableDatabase
         val cursor: Cursor = db.query(
-            TABLE_NAME, // Table name
-            arrayOf(COLUMN_NAME, COLUMN_EMAIL, COLUMN_LICENSE_TYPE, COLUMN_AGE), // Columns to return
-            "$COLUMN_EMAIL = ?", // Where clause
-            arrayOf(email), // Arguments for WHERE clause
-            null, null, null // Group by, having, and order by (not used)
+            TABLE_NAME,
+            arrayOf(COLUMN_NAME, COLUMN_EMAIL, COLUMN_LICENSE_TYPE, COLUMN_AGE),
+            "$COLUMN_EMAIL = ?",
+            arrayOf(email),
+            null, null, null
         )
 
-        if (cursor != null && cursor.moveToFirst()) {
-            // Check if all the columns exist before accessing
-            val nameIndex = cursor.getColumnIndex(COLUMN_NAME)
-            val emailIndex = cursor.getColumnIndex(COLUMN_EMAIL)
-            val licenseTypeIndex = cursor.getColumnIndex(COLUMN_LICENSE_TYPE)
-            val ageIndex = cursor.getColumnIndex(COLUMN_AGE)
-
-            // If any column index is -1, it means the column doesn't exist in the Cursor
-            if (nameIndex == -1 || emailIndex == -1 || licenseTypeIndex == -1 || ageIndex == -1) {
-                cursor.close()
-                return null
+        return cursor.use {
+            if (it.moveToFirst()) {
+                val name = it.getString(it.getColumnIndex(COLUMN_NAME))
+                val userEmail = it.getString(it.getColumnIndex(COLUMN_EMAIL))
+                val licenseType = it.getString(it.getColumnIndex(COLUMN_LICENSE_TYPE))
+                val age = it.getString(it.getColumnIndex(COLUMN_AGE))
+                User(name, userEmail, age, licenseType)
+            } else {
+                null
             }
-
-            // Retrieve values only if indices are valid
-            val name = cursor.getString(nameIndex)
-            val userEmail = cursor.getString(emailIndex)
-            val licenseType = cursor.getString(licenseTypeIndex)
-            val age = cursor.getString(ageIndex)
-            cursor.close()
-
-            return User(name, userEmail, age, licenseType) // Return User object
         }
-
-        cursor.close()
-        return null // Return null if user is not found
     }
 }
+
+// User data class
 data class User(
     val name: String,
     val email: String,

@@ -43,7 +43,6 @@
     <string name="ride_started">بدأت الرحلة</string>
     <string name="ride_ended">انتهت الرحلة</string>
     <string name="current_location">الموقع الحالي</string>
-    <string name="total_fare">إجمالي التكلفة: %.2f درهم</string>
     <string name="distance_km">المسافة: %.2f كم</string>
     <string name="time">الوقت: %02d:%02d</string>
     <string name="ride_details">تفاصيل الرحلة</string>
@@ -55,4 +54,8 @@
     <string name="licence_type">:نوع الرخصة</string>
     <string name="logout">تسجيل الخروج</string>
     <string name="email_placeholder">البريد الإلكتروني</string>
+    <string name="time1">الوقت</string>
+    <string name="distance">المسافة</string>
+    <string name="total_fare">الأجرة الكلية</string>
+
 </resources>

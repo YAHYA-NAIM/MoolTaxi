@@ -7,6 +7,11 @@
     tools:context=".Map">
 
     <!-- Map View -->
+
+    <!-- Location Button -->
+
+    <!-- Play/Pause Button -->
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
@@ -14,14 +19,10 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <!-- Location Button -->
-
-    <!-- Play/Pause Button -->
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/locationButton"
@@ -35,57 +36,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779" />
+        app:layout_constraintVertical_bias="0.897" />
 
-    <Button
-        android:id="@+id/playPauseButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|bottom"
-        android:backgroundTint="@color/Vert"
-        android:padding="10dp"
-        android:text="@string/play"
-        android:textColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
-
-    <TextView
-        android:id="@+id/distanceTimeInfo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/locationButton"
-        android:layout_centerHorizontal="true"
-        android:background="@color/GrisSombre"
-        android:padding="8dp"
-        android:text="@string/distance_time_info"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
-
-    <TextView
-        android:id="@+id/totalFare"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/distanceTimeInfo"
-        android:layout_centerHorizontal="true"
-        android:background="@color/GrisSombre"
-        android:padding="8dp"
-        android:text="@string/total_fare"
-        android:textColor="@android:color/white"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421" />
 </androidx.constraintlayout.widget.ConstraintLayout>

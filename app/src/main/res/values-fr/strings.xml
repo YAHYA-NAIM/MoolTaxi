@@ -42,7 +42,6 @@
     <string name="ride_started">Trajet commencé</string>
     <string name="ride_ended">Trajet terminé</string>
     <string name="current_location">Emplacement actuel</string>
-    <string name="total_fare">Tarif total : %.2f DH</string>
     <string name="distance_km">Distance : %.2f km</string>
     <string name="time">Temps : %02d:%02d</string>
     <string name="ride_details">Détails du trajet</string>
@@ -55,4 +54,7 @@
     <string name="licence_type">Type de permis :</string>
     <string name="logout">Se déconnecter</string>
     <string name="email_placeholder">Email</string>
+    <string name="time1">Temps</string>
+    <string name="distance">Distance</string>
+    <string name="total_fare">Tarif total</string>
 </resources>

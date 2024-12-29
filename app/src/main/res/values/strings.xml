@@ -42,7 +42,6 @@
     <string name="ride_started">Ride Started</string>
     <string name="ride_ended">Ride Ended</string>
     <string name="current_location">Current Location</string>
-    <string name="total_fare">Total Fare: %.2f DH</string>
     <string name="distance_km">Distance: %.2f km</string>
     <string name="time">Time: %02d:%02d</string>
     <string name="ride_details">Ride details</string>
@@ -55,6 +54,9 @@
     <string name="licence_type">Licence Type:</string>
     <string name="logout">Logout</string>
     <string name="email_placeholder">Email</string>
+    <string name="time1">Time</string>
+    <string name="distance">Distance</string>
+    <string name="total_fare">Total Fare</string>
 
 
 </resources>

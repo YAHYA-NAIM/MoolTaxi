@@ -5,7 +5,13 @@
     android:title="@string/map_icon"
     android:icon="@drawable/map" />
     <item
+        android:id="@+id/compteur"
+        android:title="compteur"
+        android:icon="@drawable/compteur"
+        />
+    <item
         android:id="@+id/profile"
         android:title="@string/profile_icon"
         android:icon="@drawable/profileicon" />
+
 </menu>

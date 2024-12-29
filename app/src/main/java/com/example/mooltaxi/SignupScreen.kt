@@ -1,6 +1,7 @@
 package com.example.mooltaxi
 
 import android.os.Bundle
+import android.text.InputType
 import android.text.TextUtils
 import android.util.Patterns
 import android.view.LayoutInflater
@@ -49,8 +50,8 @@ class SignupScreen : Fragment() {
         name = view.findViewById(R.id.name)
         email = view.findViewById(R.id.editTextTextEmailAddress)
         password = view.findViewById(R.id.editTextTextPassword)
-        licenseType = view.findViewById(R.id.licencetype) // Added licenseType
-        age = view.findViewById(R.id.age) // Added age
+        licenseType = view.findViewById(R.id.licencetype)
+        age = view.findViewById(R.id.age)
         signUpButton = view.findViewById(R.id.button)
         passwordVisibilityToggle = view.findViewById(R.id.hide)
         signInText = view.findViewById(R.id.signintext)
@@ -75,14 +76,14 @@ class SignupScreen : Fragment() {
     // Function to toggle password visibility
     private fun togglePasswordVisibility() {
         if (isPasswordVisible) {
-            password.inputType = android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD
-            passwordVisibilityToggle.setImageResource(R.drawable.hidepass) // Change to hidepass icon
+            password.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+            passwordVisibilityToggle.setImageResource(R.drawable.hidepass)
         } else {
-            password.inputType = android.text.InputType.TYPE_CLASS_TEXT
-            passwordVisibilityToggle.setImageResource(R.drawable.showpass) // Change to showpass icon
+            password.inputType = InputType.TYPE_CLASS_TEXT
+            passwordVisibilityToggle.setImageResource(R.drawable.showpass)
         }
         isPasswordVisible = !isPasswordVisible
-        password.setSelection(password.text.length) // Move cursor to the end
+        password.setSelection(password.text.length)
     }
 
     // Function to handle user sign-up
@@ -90,8 +91,8 @@ class SignupScreen : Fragment() {
         val nameInput = name.text.toString().trim()
         val emailInput = email.text.toString().trim()
         val passwordInput = password.text.toString().trim()
-        val licenseTypeInput = licenseType.text.toString().trim() // Retrieve license type
-        val ageInput = age.text.toString().trim() // Retrieve age
+        val licenseTypeInput = licenseType.text.toString().trim()
+        val ageInput = age.text.toString().trim()
 
         // Validation checks
         if (TextUtils.isEmpty(nameInput)) {

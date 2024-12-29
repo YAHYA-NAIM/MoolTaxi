@@ -30,6 +30,10 @@ class HomeFragment : Fragment() {
                     showFragment(Map())
                     true
                 }
+                R.id.compteur ->{
+                    showFragment(Compteur())
+                    true
+                }
                 R.id.profile -> {
                     // Show the Profile fragment
                     showFragment(Profile())
