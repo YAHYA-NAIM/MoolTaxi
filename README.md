@@ -56,11 +56,12 @@ Mool Taxi is an Android app designed to help taxi drivers track rides in real ti
   <img src="https://github.com/user-attachments/assets/9252ecab-6da0-453c-9c18-6f0430d81703" alt="Sign In" width="200" />
   <img src="https://github.com/user-attachments/assets/7139c8e6-083f-495a-91e5-4bb7e9ed8df6" alt="Sign Up" width="200" />
   <img src="https://github.com/user-attachments/assets/e19f3667-408f-4152-bbdb-eea090983559" alt="Password Reset" width="200" />
-  <img src="https://github.com/user-attachments/assets/d0f40804-e800-42d4-801f-3ca6060a384e" alt="Success Email Sent" width="200" />
+  
 </div>
 
 <!-- 5. Map & Taxi Meter Screens -->
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
+  <img src="https://github.com/user-attachments/assets/d0f40804-e800-42d4-801f-3ca6060a384e" width="200" />
   <img src="https://github.com/user-attachments/assets/10c63481-4aeb-4ca6-b4e4-b415a9a28f32" alt="Map & Meter 1" width="200" />
   <img src="https://github.com/user-attachments/assets/6a29e82c-0ba4-4a99-82e7-073cf387f634" alt="Map & Meter 2" width="200" />
   <img src="https://github.com/user-attachments/assets/0f52a89e-2296-4d24-b94f-3482706c4632" alt="Map & Meter 3" width="200" />
