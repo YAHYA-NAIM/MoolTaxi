@@ -41,14 +41,14 @@ Mool Taxi is an Android app designed to help taxi drivers track rides in real ti
 <!-- 2. Select Language Screens -->
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
   <img src="https://github.com/user-attachments/assets/26593e2b-ef10-43e8-96a9-76802162744d" alt="Select Language 1" width="200" />
+  <img src="https://github.com/user-attachments/assets/b7cef07e-8bf1-4497-91cb-14e6b4c11233" alt="Select Language 2" width="200" />
 </div>
 
 <!-- 3. Onboarding Screens -->
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
-  <img src="https://github.com/user-attachments/assets/b7cef07e-8bf1-4497-91cb-14e6b4c11233" alt="Onboarding 1" width="200" />
-  <img src="https://github.com/user-attachments/assets/18c93a76-7e17-4335-9e39-4a284497e932" alt="Onboarding 2" width="200" />
-  <img src="https://github.com/user-attachments/assets/07e2ae96-1a30-4f69-b6ee-850e974a87da" alt="Onboarding 3" width="200" />
-  <img src="https://github.com/user-attachments/assets/7df4b172-448c-4c46-bb29-81bf0cd671b5" alt="Onboarding 4" width="200" />
+  <img src="https://github.com/user-attachments/assets/18c93a76-7e17-4335-9e39-4a284497e932" alt="Onboarding 1" width="200" />
+  <img src="https://github.com/user-attachments/assets/07e2ae96-1a30-4f69-b6ee-850e974a87da" alt="Onboarding 2" width="200" />
+  <img src="https://github.com/user-attachments/assets/7df4b172-448c-4c46-bb29-81bf0cd671b5" alt="Onboarding 3" width="200" />
 </div>
 
 <!-- 4. Authentication Screens -->
