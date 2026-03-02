@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     tools:context=".Compteur">
 
 
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/geometric"
         android:text="@string/distance"
-        android:textColor="@color/GrisClair"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/geometric"
         android:text="@string/time1"
-        android:textColor="@color/GrisClair"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/geometric"
         android:text="@string/total_fare"
-        android:textColor="@color/GrisClair"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

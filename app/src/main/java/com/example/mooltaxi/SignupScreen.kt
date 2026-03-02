@@ -1,5 +1,8 @@
+@file:Suppress("DEPRECATION")
+
 package com.example.mooltaxi
 
+import androidx.fragment.app.Fragment
 import android.os.Bundle
 import android.text.InputType
 import android.text.TextUtils
@@ -12,10 +15,9 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import androidx.navigation.fragment.findNavController
 
 class SignupScreen : Fragment() {
 

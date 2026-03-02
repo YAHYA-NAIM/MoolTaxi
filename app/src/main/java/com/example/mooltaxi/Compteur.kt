@@ -189,7 +189,6 @@ class Compteur : Fragment() {
 
                 showRideDetailsNotification()
             } else {
-
             }
         }
     }

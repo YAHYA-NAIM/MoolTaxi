@@ -25,6 +25,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_menu"
-        android:background="@color/JauneTaxi"/>
-
+        android:background="@color/JauneTaxi" />
 </androidx.constraintlayout.widget.ConstraintLayout>

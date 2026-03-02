@@ -3,7 +3,7 @@
     <style name="Base.Theme.MoolTaxi" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="android:windowIsTranslucent">true</item>
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/JauneTaxi</item>
     </style>
 
     <style name="Theme.MoolTaxi" parent="Base.Theme.MoolTaxi" />
