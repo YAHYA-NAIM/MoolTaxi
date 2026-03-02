@@ -31,7 +31,6 @@ Mool Taxi is an Android app designed to help taxi drivers track rides in real ti
 ---
 
 ## 📸 Screenshots  
-## 📸 Screenshots
 
 <!-- 1. Splash Screen -->
 <div style="display:flex; gap:10px; flex-wrap:wrap;">
